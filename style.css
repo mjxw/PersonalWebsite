@@ -28,12 +28,21 @@ article {
   display: block;
 }
 
+
+
 nav {
   text-align: center;
 }
 
 article, aside, footer, header, hgroup, main, nav, section {
   display: block;
+}
+
+div {
+  float: left;
+  min-width: 90px;
+  width: 33%;
+  display:block;
 }
 
 p {
@@ -60,7 +69,8 @@ html {
   font-family: 'Lato', sans-serif;
 }
 
-A{
+a{
+  color: #006eb8;
   text-decoration:none
 }
 
@@ -71,4 +81,17 @@ A{
   min-width: 90px;
   margin: 0 0 30px;
   padding: 12px;
+}
+
+img {
+  border: 3px solid white;
+  border-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  left: calc(50% - 75px);
+  position:fixed;
+  top: 3%;
+  z-index: 1;
 }
