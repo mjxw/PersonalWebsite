@@ -27,7 +27,13 @@ article {
   z-index: 0;
   display: block;
 }
-
+i {
+    display: inline-block;
+    font-family: 'fa';
+    font-style: normal;
+    speak: none;
+    width: 15%;
+  }
 
 
 nav {
@@ -87,6 +93,14 @@ a{
   text-decoration:none
 }
 
+a img {
+  display: inline-block;
+}
+
+a:-webkit-any-link {
+  cursor: auto;
+}
+
 .button {
   background-color: #006eb8;
   color: #fff;
@@ -96,7 +110,7 @@ a{
   padding: 12px;
 }
 
-img {
+.profile {
   border: 3px solid white;
   border-radius: 50%;
   border-top-left-radius: 50%;
